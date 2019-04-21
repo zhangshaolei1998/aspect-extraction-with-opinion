@@ -1,0 +1,10 @@
+﻿Laptop:
+baseline：81.59
+opinion + 单一loss + 无attention + 拼接：0.8047893219999999
+opinion + 单一loss + 无attention + 拼接 + 先CNN：0.8086530379999999
+
+
+rest：
+baseline：73.4
+opinion + 先1后2 + awb attention + 拼接 +残差：0.73617464   a=0.5
+opinion + 先2后12 + awb attention + 拼接+残差 ：0.73804162   a=1
