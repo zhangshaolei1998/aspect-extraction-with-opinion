@@ -9,6 +9,7 @@ python script/train.py --domain restaurant
 ```
 ```
 nohup python script/train.py --domain restaurant  > nohup.out 2>&1 & 
+nohup python script/train.py --domain restaurant & tail -f nohup.out
 ```
 
 Train the Laptop model
