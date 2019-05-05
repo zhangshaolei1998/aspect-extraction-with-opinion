@@ -23,6 +23,11 @@ Evaluate Restaurant dataset
 python script/evaluation.py --domain restaurant 
 ```
 
+```
+nohup python script/train.py  > nohup.out 2>&1 & 
+nohup python script/train.py & tail -f nohup.out
+```
+
 Evaluate Laptop dataset
 ```
 python script/evaluation.py
