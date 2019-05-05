@@ -8,7 +8,7 @@ Train the Restaurant model
 python script/train.py --domain restaurant 
 ```
 ```
-nohup python script/train.py --domain restaurant  > nohup.out 2>&1 & 
+nohup python script/train.py --domain restaurant  > nohup_rest.out 2>&1 & 
 nohup python script/train.py --domain restaurant & tail -f nohup.out
 ```
 
