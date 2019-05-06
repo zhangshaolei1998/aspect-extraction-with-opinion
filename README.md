@@ -32,3 +32,7 @@ Evaluate Laptop dataset
 ```
 python script/evaluation.py
 ```
+
+```
+nohup python test.py   > nohup_test.out 2>&1 & 
+```
